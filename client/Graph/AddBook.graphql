@@ -1,0 +1,5 @@
+mutation createBook($input: UserInput) {
+    createBook(input: $input) {
+        id, title, description, author
+    }
+}
